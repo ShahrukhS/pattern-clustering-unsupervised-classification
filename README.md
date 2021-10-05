@@ -1,11 +1,10 @@
 # pattern-clustering-unsupervised-classification
 Few clustering techniques and methods on continuous numerical data
 
-Wine dataset is taken from UC Irvine Machine Learning Repository [[1]](#1).
-
-### Clustering countries into following 3 categories
-
-There are two .csv files: 1) Country-data.csv and 2) data-dictionary.csv. Please explore the data and use any clustering method to find the list of countries, which can categorised as follows:
+In this repository, you will find three notebooks as per the following;
+1. moons_and_circles_exercise.ipynb: it is an exercise where I have implemented different clustering methods (such as K-Means and DBScan), Outlier Detection using Isolation Forest and have done Principle Component Analysis (PCA).
+2. wine_clustering.ipynb: in this notebook I am using Wine dataset from UC Irvine Machine Learning Repository [[1]](#1), to do clustering/unsupervised learning into its 3 classes, PCA and Logistic Regression.
+3. countries_clusters.ipynb: In this notebook I have done clustering and PCA analysis to categorise each sample into one of the three categories:
 
 | S.No      | Categories |
 | ----------- | ----------- |
@@ -13,8 +12,6 @@ There are two .csv files: 1) Country-data.csv and 2) data-dictionary.csv. Please
 | 2   | developing country       |
 | 3   | developed country        |
 
-
-Note: please justify your reason, why and how you have concluded your answer.
 
 ## References
 <a id="1">[1]</a>
